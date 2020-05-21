@@ -10,7 +10,7 @@ I animate the process by calling the function from draw() using frameCount, or b
 
 
 frameCount animate
-https://editor.p5js.org/greggelong/present/DS2mrw4XK
+https://editor.p5js.org/greggelong/full/DS2mrw4XK
 
 random animate
 
@@ -20,3 +20,4 @@ https://editor.p5js.org/greggelong/full/fgF5HZoB8
 ## earlier versions were recursive
 Here I am making a Pythagorean tree.  It is called that because every branch is a sort of proof of the Pythagorean theorem, a^2+b^2 = c^2.  Each branch of of this 45degree angle tree proves the theorem  for an isosceles right triangle. However there is a problem with the numbering. 
    The recursion direction makes it difficult to create a Pythagorean tree correctly numbered for binary tracing. The recursion follows one direction until the exit condition then picks up where it left off.  So I will try and create the tree from binary number traces.   You can use binary notation to find any particular square on a Pythagorean tree.  For example to find square 30 = 16+8+4+2+0 or 11110. start from the leftmost digit 1 at the base of the tree 1. for the remaining digits turn to the left if the number is zero and to the right if the number is one following the path to your number. But it does not work with my tree numbered according to the recursion direction.
+   https://editor.p5js.org/greggelong/full/2YZfAf863
