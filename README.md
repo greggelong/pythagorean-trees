@@ -1,7 +1,5 @@
 # pythagorean-trees
 
-<iframe src="https://editor.p5js.org/greggelong/embed/DS2mrw4XK"> </iframe>
-
 ## some p5js sketches to visualize pythagrean-trees in recursive and non recursive ways
 A non-recursive Pythagorean tree plotted by binary tracing.  
 This non-recursive Pythagorean tree is made converting integers to binary numbers and tracing them according to simple rules. it uses a function that  takes in an integer and  converts it first to a binary string then to an array and plots the path according to simple rules:
@@ -9,8 +7,6 @@ the initial '1' of the binary number is the first square then subsequent squares
 
 I animate the process by calling the function from draw() using frameCount, or by calling the function on a random number.
 #p5js #creativecoding #math #fractal
-
-
 
 frameCount animate
 https://editor.p5js.org/greggelong/full/DS2mrw4XK
