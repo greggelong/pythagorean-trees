@@ -1,6 +1,7 @@
 # pythagorean-trees
 
-<iframe src="https://editor.p5js.org/greggelong/embed/DS2mrw4XK"></iframe>
+<iframe src="https://editor.p5js.org/greggelong/embed/DS2mrw4XK"> </iframe>
+
 ## some p5js sketches to visualize pythagrean-trees in recursive and non recursive ways
 A non-recursive Pythagorean tree plotted by binary tracing.  
 This non-recursive Pythagorean tree is made converting integers to binary numbers and tracing them according to simple rules. it uses a function that  takes in an integer and  converts it first to a binary string then to an array and plots the path according to simple rules:
