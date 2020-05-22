@@ -28,7 +28,7 @@ function draw() {
 function branch(targetNumber, boxL) {
   // function takes in an interger converts it to a binary  string
   // then to an array and plots according to simple rules
-  // the initial 1 is the start then if zero turn right if one turn left
+  // the initial 1 is the start then if zero turn left if one turn right
   // finaly it prints the target number
   
   push();
