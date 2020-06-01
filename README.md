@@ -8,9 +8,9 @@ the initial '1' of the binary number is the first square then subsequent squares
 I animate the process by calling the function from draw() using frameCount, or by calling the function on a random number.
 #p5js #creativecoding #math #fractal
 
-## [See the frameCount animate version](https://editor.p5js.org/greggelong/full/DS2mrw4XK)
+## [See the frameCount animate version](https://editor.p5js.org/greggelong/present/DS2mrw4XK)
 
-## [see the random animate version](https://editor.p5js.org/greggelong/full/fgF5HZoB8)
+## [see the random animate version](https://editor.p5js.org/greggelong/present/fgF5HZoB8)
 
 
 ## [see the the tree mapped to ascii](https://editor.p5js.org/greggelong/present/IR_qWYzic)
