@@ -1,5 +1,5 @@
 # pythagorean-trees
-
+![tree number](treeNumber.png)
 ## some p5js sketches to visualize pythagorean-trees in recursive and non recursive ways
 A non-recursive Pythagorean tree plotted by binary tracing.  
 This non-recursive Pythagorean tree is made converting integers to binary numbers and tracing them according to simple rules. it uses a function that  takes in an integer and  converts it first to a binary string then to an array and plots the path according to simple rules:
@@ -14,6 +14,8 @@ I animate the process by calling the function from draw() using frameCount, or b
 
 
 ## [see the the tree mapped to ascii](https://editor.p5js.org/greggelong/present/IR_qWYzic)
+
+![tree ascii](treeASCII.png)
 
 Like a type of semaphore of Pythagorean tree branches instead of flags.  The text ASCII codes are mapped to the the tree using charCodeat(0).  The HTML text area can be updated. The most common characters I notice are an end of line and space. I think it would take a lot of practice to read without help. But it is kinda of a fun visualization of text. #creativecoding #p5js #pythagoreantree #language
 Here I am using the binary mapping method to map ASCII letters to the Pythagorean tree. Then each letter has a particular curl on the tree. I  slowly clear  them away after each word or phrase. I was going to use createGraphics() to draw a second image to another canvas but I found this neat little trick in the examples on p5js documentation which is much easier. So just set fill to the same as the background with a really low alpha and then draw a rectangle over the the whole canvas.  The alpha color will accumulate and slowly cover the screen. leaving ghost like remnants of the elements written to the canvas.
