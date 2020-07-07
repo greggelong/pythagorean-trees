@@ -25,3 +25,5 @@ Here I am making a Pythagorean tree.  It is called that because every branch is 
    The recursion direction makes it difficult to create a Pythagorean tree correctly numbered for binary tracing. The recursion follows one direction until the exit condition then picks up where it left off.  So I will try and create the tree from binary number traces.   You can use binary notation to find any particular square on a Pythagorean tree.  For example to find square 30 = 16+8+4+2+0 or 11110. start from the leftmost digit 1 at the base of the tree 1. for the remaining digits turn to the left if the number is zero and to the right if the number is one following the path to your number. But it does not work with my tree numbered according to the recursion direction.
 
 ### [see the recursive version with wrong numbering](https://editor.p5js.org/greggelong/full/2YZfAf863)
+
+[Home](https://greggelong.github.io/)
